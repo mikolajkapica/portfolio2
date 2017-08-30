@@ -1,0 +1,62 @@
+.nav-up {
+  margin-top: -150px;
+}
+.nav-down {
+}
+header {
+  background-image: url(../img/bg.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 826px;
+  width: 100%;
+    .menu {
+      background-image: url(../img/gradient.png);
+      height: 150px;
+      position: fixed;
+      width: 100%;
+      position: fixed;
+      left: 50%;
+      transform: translate(-50%);
+      top: 0;
+      transition: .3s ease-in-out;
+      h3 {
+        font-weight: 400;
+        float: left;
+        line-height: 150px;
+      }
+      .links {
+        float: right;
+        h4 {
+          font-weight: 400;
+          line-height: 150px;
+          float: right;
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+
+  .headline {
+    padding-top: 200px;
+    h1 {
+      line-height: 1.5;
+      margin-bottom: 10px;
+    }
+    h1:nth-child(1) {
+      margin-top: 65px;
+    }
+  }
+.about {
+  height: 433px;
+  overflow: hidden;
+  position: relative;
+  img {
+    float: right;
+  }
+  .text {
+    position: absolute;
+    top: 50%;
+    margin-top: -99px;
+  }
+}
